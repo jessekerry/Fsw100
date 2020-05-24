@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: pink purple;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0,5),rgba(0, 0, 0, 0.5)) url("");
+    background-size: cover;
+    background-position: hidden;
+    background-attachment: fixed;
+}
+ul,nav{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem;
+}
+head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: crimson;
+    position: 10px 100px 0;
+
+}
+header nav ul{
+    display: flex;
+}
+header nav li{
+    margin: 0 15px;
+
+}
+header nav li:first-child{
+    margin-left: 0%;
+}
+header nav li:last-child{
+    margin-right: 0%;
+}
+a.btn{
+    color: cyan;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+a.btn:hover{
+    background-color: darkorange;
+    border: 1px solid;
+    color: darkslategrey;
+}
+.cover{
+    height: 100vh;
+    width: 100%;
+    padding: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex_form input[type="submit"]{
+    background-color: deeppink;
+    border: 1px solid deepskyblue;
+}
