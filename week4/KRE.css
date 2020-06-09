@@ -1,0 +1,29 @@
+*{
+    background-color: hotpink;
+}
+nav{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+nav > a{
+    background-color: rgb(255, 0, 119);
+}
+header > h1{
+    margin:50px ;
+    border:50px ;
+    padding:50px ;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-left: 35%;
+}
+table{
+    margin-left: 40%;
+}
+main > h2{
+    margin-left: 45%;
+}

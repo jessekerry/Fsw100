@@ -1,0 +1,51 @@
+*{
+    background-color: blueviolet;
+}
+header{
+    margin-left: 45%;
+    color: chartreuse;
+}
+nav{
+    background-color: cornflowerblue;
+}
+nav > a{
+    height: 25px;
+    position: fixed;
+}
+.article1{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.date1{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.article2{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.date2{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.article3{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.date3{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+img{
+    float: left;
+    padding: 2em;
+}
+.article1 > h3{
+    margin-left: 180px;
+}
+.article2 > h3{
+    margin-left: 180px;
+}
+.article3 > h3{
+    margin-left: 170%;
+}
