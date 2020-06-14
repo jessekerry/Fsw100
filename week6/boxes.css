@@ -1,0 +1,62 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: 150px;
+}
+.id1{
+    background-color: tomato;
+}
+.id2{
+    background-color: teal;
+}
+.id3{
+    background-color: turquoise;
+}
+.id4{
+    background-color: yellow;
+}
+.id5{
+    background-color: violet;
+}
+.id6{
+    background-color: orangered;
+}
+.id1:hover{
+    background-color: black;
+    border: chartreuse;
+    height: 20px;
+    width: 30px;
+}
+.id2:hover{
+    background-color: crimson;
+    border: cyan;
+    height: 45px;
+    width: 20px;
+}
+.id3:hover{
+    background-color: darkgreen;
+    border-radius: 34px;
+    padding-left: 45%;
+    width: 22px;
+}
+.id4:hover{
+    background-color: darkorange;
+    border: darkred;
+    padding-right: 45%;
+    width: 25px;
+}
+.id5:hover{
+    background-color: aqua;
+    border: black;
+    height: 25px;
+    width: 25px;
+    padding-left: 45%;
+    padding-top: 75%;      
+}
+.id6:hover{
+    background-color: coral;
+    border-radius: 45px;
+    border: crimson;
+    width: 45px;
+}
